@@ -7,7 +7,7 @@ const Button = () => {
         <button className='btn'>
           Register
         </button>
-        <button classname='btn2'>
+        <button className='btn2'>
           Log In
         </button>
       </div>
