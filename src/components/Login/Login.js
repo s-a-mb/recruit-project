@@ -1,7 +1,9 @@
 import React, { useState } from "react";
 import "./style.css";
+import { useNavigate } from 'react-router-dom';
 
 function Login() {
+  let navigate = useNavigate();
   return (
     <div className="form">
       <div className="form-body">
@@ -15,6 +17,11 @@ function Login() {
         </div>
         <div class="footer">
                 <button type="submit" class="btn">Log in</button>
+        </div>
+        <div class="footer">
+        <button onClick={() => {navigate("/")}} className='btn'>
+          Back
+        </button>
         </div>
       </div>
     </div>
