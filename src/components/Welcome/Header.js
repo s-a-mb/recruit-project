@@ -2,15 +2,15 @@ import React from 'react'
 import './Welcome.css';
 import Button from './Button';
 
-const Welcome = () => {
+const Header = () => {
   return (
     <div className='container'>
-        <welcome className ="welcome">
-            <hi>Welcome</hi>
+        <header className ="header">
+            Welcome
             <Button />
-        </welcome>
+        </header>
     </div>
   )
 }
 
-export default Welcome
+export default Header

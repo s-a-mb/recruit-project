@@ -1,4 +1,4 @@
-import Welcome from "./components/Welcome/Welcome";
+import Header from "./components/Welcome/Header";
 import Login from "./components/Login/Login";
 import RegistrationForm from "./components/Register/Register";
 import './App.css';
@@ -9,7 +9,7 @@ function App() {
       <header className="App-header"></header>
       <main>
         <div>
-          <Welcome />
+          <Header />
           <Login />
           <RegistrationForm />
         </div>
