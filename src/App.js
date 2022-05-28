@@ -1,5 +1,5 @@
-import NavBar from "./components/NavBar/NavBar";
 import Welcome from "./components/Welcome/Welcome";
+import Login from "./components/Login/Login";
 import './App.css';
 
 function App() {
@@ -9,6 +9,7 @@ function App() {
       <main>
         <div>
           <Welcome />
+          <Login />
         </div>
       </main>
     </div>
