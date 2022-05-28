@@ -1,5 +1,6 @@
 import Welcome from "./components/Welcome/Welcome";
 import Login from "./components/Login/Login";
+import RegistrationForm from "./components/Register/Register";
 import './App.css';
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
         <div>
           <Welcome />
           <Login />
+          <RegistrationForm />
         </div>
       </main>
     </div>
