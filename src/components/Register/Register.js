@@ -1,6 +1,8 @@
 import React, {useState} from 'react';
 import './style.css'
+import { useNavigate } from 'react-router-dom';
 function Register() {
+    let navigate = useNavigate();  
     return(
       <div className="form">
           <div className="form-body">
@@ -28,6 +30,12 @@ function Register() {
           <div class="footer">
               <button type="submit" class="btn">Register</button>
           </div>
+          <div class="footer">
+            <button onClick={() => {navigate("/")}} className='btn'>
+            Back
+            </button>
+          </div>
+
       </div>      
     )       
 }
