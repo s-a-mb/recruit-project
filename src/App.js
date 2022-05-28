@@ -3,6 +3,7 @@ import Login from "./components/Login/Login";
 import Register from "./components/Register/Register";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import './App.css';
+import ViewProfile from "./components/View Profile/ViewProfile";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
               <Route path="/" element={<Header />} />
               <Route path="/login" element={<Login />} />
               <Route path="/register" element={<Register />} />
+              <Route path="/viewprofile" element={<ViewProfile />} />
             </Routes>
           </Router>
         </div>
