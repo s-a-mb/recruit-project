@@ -1,4 +1,5 @@
 import NavBar from "./components/NavBar/NavBar";
+import Welcome from "./components/Welcome/Welcome";
 import './App.css';
 
 function App() {
@@ -7,7 +8,7 @@ function App() {
       <header className="App-header"></header>
       <main>
         <div>
-          <NavBar />
+          <Welcome />
         </div>
       </main>
     </div>
