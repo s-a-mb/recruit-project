@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import './style.css'
-function RegistrationForm() {
+function Register() {
     return(
       <div className="form">
           <div className="form-body">
@@ -31,4 +31,4 @@ function RegistrationForm() {
       </div>      
     )       
 }
-export default RegistrationForm;
+export default Register;

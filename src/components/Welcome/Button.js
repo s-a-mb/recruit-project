@@ -1,13 +1,15 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom';
 
 const Button = () => {
+  let navigate = useNavigate();
   return (
     <>
       <div>
-        <button className='btn'>
+        <button onClick={() => {navigate("/register")}} className='btn'>
           Register
         </button>
-        <button className='btn'>
+        <button onClick={() => {navigate("/login")}} className='btn'>
           Log In
         </button>
       </div>
