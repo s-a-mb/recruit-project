@@ -4,11 +4,11 @@ const Button = () => {
   return (
     <>
       <div>
-        <button classname='btn'>
-          Log In
-        </button>
         <button className='btn'>
           Register
+        </button>
+        <button classname='btn2'>
+          Log In
         </button>
       </div>
     </>
