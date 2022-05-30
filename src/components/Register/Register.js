@@ -55,7 +55,7 @@ function Register() {
               </div>
               <div className="confirm-password">
                   <label className="form__label" for="confirmPassword">Confirm Password </label>
-                  <input className="form__input" type="password" id="confirmPassword" placeholder="Confirm Password"/>
+                  <input className="form__input" type="password" id="confirmPassword" value={confirmPassword} onChange = {(e) => handleInputChange(e)} placeholder="Confirm Password"/>
               </div>
           </div>
           <div class="footer">
