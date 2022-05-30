@@ -18,13 +18,19 @@
 }
 
 .form__label{
+    display: block;
     width: 40%;
+    float: left;
+    padding: 6px;
 }
 
 .form_input{
-    width: 60%;
+    display: block;
+    width: calc(76% - 11px);
+    float: left;
+    padding: 6px;
 }
 
 .footer{
     text-align: center;
-}    
+}
