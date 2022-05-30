@@ -1,21 +1,17 @@
 
-.container {
-    max-width: 600px;
-    margin: 100px auto;
-    overflow: auto;
-    min-height: 250px;
-    border: 1px solid steelblue;
-    padding: 30px;
-    border-radius: 5px;
-}
-
 .form{
     background-color: white;
     border-radius: 5px;
     width: 550px;
     margin: 20px auto;
     padding: 20px;
+    display: flexbox;
+    vertical-align: middle;
     /* height: 600px; */
+}
+
+.form div{
+    display: inline-block;
 }
 
 .form-body{
@@ -34,9 +30,25 @@
     padding: 6px;
 }
 
-.form_input{
+.form__input{
     display: block;
     width: calc(76% - 11px);
     float: left;
     padding: 6px;
+}
+
+.form__submit{
+    display: block;
+    float: left;
+    padding:5px 15px; 
+    background:#ccc; 
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+    margin-left: 15px;
+}
+
+.footer{
+    text-align: center;
 }
