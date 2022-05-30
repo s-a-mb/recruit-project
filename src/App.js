@@ -11,14 +11,15 @@ function App() {
       <header className="App-header"></header>
       <main>
         <div>
-          <Router>
+          {/*<Router>
             <Routes>
               <Route path="/" element={<Header />} />
               <Route path="/login" element={<Login />} />
               <Route path="/register" element={<Register />} />
               <Route path="/viewprofile" element={<ViewProfile />} />
             </Routes>
-          </Router>
+          </Router>*/}
+          <ViewProfile />
         </div>
       </main>
     </div>

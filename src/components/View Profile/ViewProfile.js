@@ -2,7 +2,7 @@ import React from "react";
 
 function ViewProfile(){
     return(
-      <div>
+      <div className="container">
         <form action="">
             <label for="fname">First name:</label>
             <input type="text" id="fname" name="fname" value="John"></input>
